@@ -141,9 +141,7 @@ model.compile(optimizer='adam',
 ```
 
 **Funzione di Loss** (Cross-Entropy):
-$$
-L = -\sum_{i=1}^{10} y_i \cdot \log(\hat{y}_i)
-$$
+$L = -\sum_{i=1}^{10} y_i \cdot \log(\hat{y}_i)$
 
 Dove $y_i$ è la label vera e $\hat{y}_i$ è la predizione.
 
